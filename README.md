@@ -20,7 +20,7 @@ link to niri with blur
 
 ## galery
 
-![[Screenshot from 2025-11-02 16-07-41.png]]
+![Image alt](https://github.com/levpr1c/my-niri-setup/blob/main/images/Screenshot%20from%202025-11-02%2016-07-41.png)
 ![[Screenshot from 2025-11-02 16-09-12.png]]
 ![[Screenshot from 2025-10-04 23-01-04.png]]
 ![[Screenshot from 2025-10-12 18-21-20.png]]
