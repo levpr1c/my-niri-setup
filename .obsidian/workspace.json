@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "7d87075a84c69f46",
+    "type": "split",
+    "children": [
+      {
+        "id": "04c49480cf80bf9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ef0abd7a2fab923",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "мой нири сетапчик.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "мой нири сетапчик"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dbf549672334479e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e7d07930f72d936",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb3cff4ea5e3d5c5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "3ccc24780cb3b086",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "1e634c32de5192c4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "13f2524c1d259c58",
+    "type": "split",
+    "children": [
+      {
+        "id": "2686c828e4aa1972",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1d3eeeaa6c433da",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "мой нири сетапчик.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для мой нири сетапчик"
+            }
+          },
+          {
+            "id": "0756c66d011a14b0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "мой нири сетапчик.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из мой нири сетапчик"
+            }
+          },
+          {
+            "id": "83f1ce8a81b95f15",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "64e76f8ddf4a55db",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "мой нири сетапчик.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура мой нири сетапчик"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "5ef0abd7a2fab923",
+  "lastOpenFiles": [
+    "README.md",
+    "мой нири сетапчик.md",
+    "images/Screenshot from 2025-10-12 18-21-20.png",
+    "images/Screenshot from 2025-10-04 23-01-04.png",
+    "images/Screenshot from 2025-11-02 16-07-41 1.png",
+    "images/Screenshot from 2025-11-02 16-09-12.png",
+    "images/Screenshot from 2025-11-02 16-07-41.png",
+    "wallpaers/Screenshot from 2025-11-02 16-06-57.png",
+    "images"
+  ]
+}
