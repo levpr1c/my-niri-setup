@@ -1,6 +1,6 @@
 # my-niri-setup
 
-![[Screenshot from 2025-11-02 16-06-57.png]]
+![Image alt](https://github.com/levpr1c/my-niri-setup/blob/main/images/Screenshot%20from%202025-11-02%2016-06-57.png)
 [мой нири сетапчик] - на русском
 i do this setup for me to disassemble how to create dotfiles and to use this on my laptop.
 niri is my first wm and i love to use this
@@ -13,7 +13,7 @@ link to niri with blur
 - notificatioan deamon swaync
 - swayidle (but i don't configuration him)
 - gtklock (like swaylock and etc)
-- waybar 
+- waybar
 - swayosd (for switch voluem or mute (laptop keys))
 - vicinae - app launcher
 - mini fastfetch cfg
@@ -21,9 +21,9 @@ link to niri with blur
 ## galery
 
 ![Image alt](https://github.com/levpr1c/my-niri-setup/blob/main/images/Screenshot%20from%202025-11-02%2016-07-41.png)
-![[Screenshot from 2025-11-02 16-09-12.png]]
-![[Screenshot from 2025-10-04 23-01-04.png]]
-![[Screenshot from 2025-10-12 18-21-20.png]]
+![Image alt](https://github.com/levpr1c/my-niri-setup/blob/main/images/Screenshot%20from%202025-11-02%2016-09-12.png)
+![Image alt](https://github.com/levpr1c/my-niri-setup/blob/main/images/Screenshot%20from%202025-10-04%2023-01-04.png)
+![Image alt](https://github.com/levpr1c/my-niri-setup/blob/main/images/Screenshot%20from%202025-10-12%2018-21-20.png)
 # dependencies
 - qt6ct
 - swww
@@ -37,7 +37,7 @@ link to niri with blur
 - modules for gtklock (can find in aur, use yay for search)
 - dynamic-power-managment - for my laptop, but i wanna swich them for default power managment when i will be use some shell like dunk and etc
 - kde polilit agent
-- xdg-desktop-portal-gtk 
+- xdg-desktop-portal-gtk
 - xdg-desktop-portal-gnome
 - blueberry for bleutouth gui
 - nmgui for wifi
