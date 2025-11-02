@@ -1,5 +1,5 @@
 window {
-    background-image: url("/home/lapa/Pictures/wallpaers/blurground.jpg");
+    background-image: url("~/Pictures/wallpaers/blurground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
