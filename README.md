@@ -7,7 +7,7 @@ niri is my first wm and i love to use this
 i wanna switch to labwc, but now i use niri.
 i translet some coments in niri config for my lang (ru)
 # i use not defualt niri, in my niri i have blur, but in config i off them. but if u wanna use blur, u can donwload niri with blur from
-[link to niri with blur](https://github.com/visualglitch91/niri/tree/feat/blur)
+[link to niri with blur](https://www.reddit.com/r/niri/comments/1l8mj0k/for_those_who_cant_wait_anymore_for_blur_here_is/?share_id=fQoS3EHcK6C6ETD85KhyW&utm_content=2&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1)
 ## in my setup i have:
 - 2 walppaers deamon (swww for backgorund and swaybg for overview background (blured))
 - notificatioan deamon swaync
