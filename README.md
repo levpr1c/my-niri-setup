@@ -1,46 +1,63 @@
-# my-niri-setup
+## Hi guys, it's my niri setup which i daily use.
 
-![Image alt](https://github.com/levpr1c/my-niri-setup/blob/main/images/Screenshot%20from%202025-11-02%2016-06-57.png)
-[мой нири сетапчик](https://github.com/levpr1c/my-niri-setup/blob/main/%D0%BC%D0%BE%D0%B9%20%D0%BD%D0%B8%D1%80%D0%B8%20%D1%81%D0%B5%D1%82%D0%B0%D0%BF%D1%87%D0%B8%D0%BA.md) - на русском
-i do this setup for me to disassemble how to create dotfiles and to use this on my laptop.
-niri is my first wm and i love to use this
-i wanna switch to labwc, but now i use niri.
-i translet some coments in niri config for my lang (ru)
-# i use not defualt niri, in my niri i have blur, but in config i off them. but if u wanna use blur, u can donwload niri with blur from
-[link to niri with blur](https://www.reddit.com/r/niri/comments/1l8mj0k/for_those_who_cant_wait_anymore_for_blur_here_is/?share_id=fQoS3EHcK6C6ETD85KhyW&utm_content=2&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1)
-## in my setup i have:
-- 2 walppaers deamon (swww for backgorund and swaybg for overview background (blured))
-- notificatioan deamon swaync
-- swayidle (but i don't configuration him)
-- gtklock (like swaylock and etc)
-- waybar
-- swayosd (for switch voluem or mute (laptop keys))
-- vicinae - app launcher
-- mini fastfetch cfg
+#### I am setting this up to break down how to create dotfiles and use them on my laptop. Niri is my first window manager, and I love using it. I want to switch to labwc, but for now, I'm still using Niri.
 
-## galery
+*i think i will never switch to labwc, there now some i realy need to use. maybe i will use gnome or etc*
 
-![Image alt](https://github.com/levpr1c/my-niri-setup/blob/main/images/Screenshot%20from%202025-11-02%2016-07-41.png)
-![Image alt](https://github.com/levpr1c/my-niri-setup/blob/main/images/Screenshot%20from%202025-11-02%2016-09-12.png)
-![Image alt](https://github.com/levpr1c/my-niri-setup/blob/main/images/Screenshot%20from%202025-10-04%2023-01-04.png)
-![Image alt](https://github.com/levpr1c/my-niri-setup/blob/main/images/Screenshot%20from%202025-10-12%2018-21-20.png)
-# dependencies
-- qt6ct
-- swww
-- swaybg
-- gtklock
-- vicinae
-- waybar
-- swayosd
-- swaync
-- swayidle
-- modules for gtklock (can find in aur, use yay for search)
-- dynamic-power-managment - for my laptop, but i wanna swich them for default power managment when i will be use some shell like dunk and etc
-- kde polilit agent
-- xdg-desktop-portal-gtk
-- xdg-desktop-portal-gnome
-- blueberry for bleutouth gui
-- nmgui for wifi
+I translated some comments in the Niri config to my language (Russian).
 
-that all i think
-*enjoy*
+I’m using a custom version of Niri. My version includes blur effects, but I’ve disabled them in the config. If you want to use blur, you can download the Niri version with blur from [there](https://www.reddit.com/r/niri/comments/1l8mj0k/for_those_who_cant_wait_anymore_for_blur_here_is/?share_id=fQoS3EHcK6C6ETD85KhyW&utm_content=2&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1).
+## I have 2 variants of setup
+---
+
+| Waybar setup                | DankMaterialShell setup         |
+| --------------------------- | ------------------------------- |
+| ![330](/images/preview.png) | ![330](/images/preview_dms.png) |
+## In waybar rice, i used
+---
+- **bar** - waybar 
+- **osd** - swayosd
+- **notification** - swaync
+- **lock screen** - gtklock - you need to edit config, to add your walppaer
+- **fastfetch**
+- **shell** - fish
+- **terminal** - ghostty
+- **app launcher** - vicinae 
+	*in vicinae i have cliboard manager too*
+- **qt and gtk theme** - gruvbox 
+	*in apps i use material gruvbox or soft gruvbox*
+- **wallpaper manager** - swww for background and swaybg for overview 
+- **nmgui and blueberry** for setup wifi and bluetooth
+- **image viewver** - loupe
+#### package dependencies
+***installed on arch***
+```
+yay -S qt6ct qt5ct swww swaybg gtklock vicinae waybar swayosd swaync swayidle mate-polkit xdg-desktop-portal xdg-desktop-portal-gnome xdg-desktop-portal-gtk xdg-desktop-portal-wlr nwg-look zed nautilus blueberry nmgui kvantum loupe waypaper
+```
+
+*maybe it's not all*
+
+------------------------------------------
+## Gallery 
+
+| ![330](/images/ghostty_ff.png)ghostty | ![330](/images/osd_sound.png)swayosd |
+| ------------------------------------- | ------------------------------------ |
+| ![330](/images/vicinae.png)vicinae    | ![330](/images/overview.png)overview |
+| ![330](/images/ghostty_small_ff.png)  | ![330](/images/firefox_blur.png)     |
+
+-------------------------------
+## For DankMaterialShell rice, i used
+
+- **dankmaterialshell** - for all i used before))
+- **fastfetch**
+- **shell** - fish
+- **terminal** - kitty 
+- **qt and gtk theme** - gruvbox and mutagen  
+	*in apps i use material gruvbox or soft gruvbox*
+- **image viewver** - loupe
+#### package dependencies
+***installed on arch***
+```
+yay -S qt6ct qt5ct swayidle mate-polkit xdg-desktop-portal xdg-desktop-portal-gnome xdg-desktop-portal-gtk xdg-desktop-portal-wlr nwg-look zed nautilus blueberry nmgui kvantum loupe waypaper dms
+```
+
