@@ -8,13 +8,12 @@ I translated some comments in the Niri config to my language (Russian).
 
 I’m using a custom version of Niri. My version includes blur effects, but I’ve disabled them in the config. If you want to use blur, you can download the Niri version with blur from [there](https://www.reddit.com/r/niri/comments/1l8mj0k/for_those_who_cant_wait_anymore_for_blur_here_is/?share_id=fQoS3EHcK6C6ETD85KhyW&utm_content=2&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1).
 ## I have 2 variants of setup
----
 
 | Waybar setup                | DankMaterialShell setup         |
 | --------------------------- | ------------------------------- |
 | ![330](/images/preview.png) | ![330](/images/preview_dms.png) |
 ## In waybar rice, i used
----
+
 - **bar** - waybar 
 - **osd** - swayosd
 - **notification** - swaync
@@ -36,8 +35,6 @@ yay -S qt6ct qt5ct swww swaybg gtklock vicinae waybar swayosd swaync swayidle ma
 ```
 
 *maybe it's not all*
-
-------------------------------------------
 ## Gallery 
 
 | ![330](/images/ghostty_ff.png)ghostty | ![330](/images/osd_sound.png)swayosd |
