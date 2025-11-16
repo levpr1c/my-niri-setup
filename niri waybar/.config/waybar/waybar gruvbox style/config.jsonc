@@ -1,0 +1,155 @@
+// -*- mode: jsonc -*-
+{
+  "layer": "top",
+  "margin-top": 0,
+  "margin-left": 0,
+  "margin-bottom": 0,
+  "margin-right": 0,
+  "exclusive": true,
+  "position": "top",
+  "spacing": 3,
+
+  "modules-left": ["custom/menu", "niri/workspaces", "niri/window"],
+  "modules-center": ["clock"],
+  "modules-right": ["cpu", "memory", "battery", "tray", "group/anln"],
+  "group/anln": {
+    "orientation": "horizontal",
+    "modules": [
+      "pulseaudio",
+      "network",
+      "niri/language",
+      "custom/notification",
+    ],
+  },
+
+  "custom/menu": {
+    "format": "{icon}",
+    "format-icons": "",
+    "on-click": "vicinae toggle",
+    "escape": true,
+    "tooltip": false,
+  },
+
+  "niri/window": {
+    "format": "{app_id}",
+    "separate-outputs": true,
+    "on-click": "nwg-bar",
+    "on-click-right": "niri msg action close-window",
+    "on-click-middle": "niri msg action switch-preset-window-width",
+  },
+
+  "niri/workspaces": {
+    "disable-scroll": false,
+    "on-click": "activate",
+    "all-outputs": true,
+    "active-only": true,
+    "format": "{icon}",
+    "format-icons": {
+      "focused": "󰮯",
+      "default": "󰊠",
+      "empty": "",
+    },
+  },
+
+  "tray": {
+    "icon-size": 17,
+    "spacing": 5,
+  },
+
+  "clock": {
+    "interval": 1,
+    "format": " {:%b %d %Y 󰥔 %H:%M:%S}",
+    "tooltip-format": "<tt>{calendar}</tt>",
+    "calendar": {
+      "mode": "month",
+      "format": {
+        "months": "<span color='#ebdbb2'><b>{}</b></span>",
+        "days": "<span color='#ebdbb2'><b>{}</b></span>",
+        "weeks": "<span color='#ebdbb2'><b>W{}</b></span>",
+        "weekdays": "<span color='#ebdbb2'><b>{}</b></span>",
+        "today": "<span color='#d79921'><b>{}</b></span>",
+      },
+    },
+  },
+
+  "cpu": {
+    "format": "{usage}% ",
+  },
+
+  "memory": {
+    "format": "{}% ",
+  },
+
+  "battery": {
+    "states": {
+      "warning": 30,
+      "critical": 15,
+    },
+    "format": "{capacity}% {icon}",
+    "format-full": "{capacity}% {icon}",
+    "format-charging": "{capacity}% ",
+    "format-plugged": "{capacity}% ",
+    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+  },
+
+  "temperature": {
+    "hwmon-path": "/sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon1/temp1_input",
+    "format": "{temperatureC}°C ",
+    "format-icons": ["", "", ""],
+  },
+
+  "pulseaudio": {
+    "format": "{icon}",
+    "format-bluetooth": "{icon}",
+    "format-icons": {
+      "default": ["", "", "", ""],
+    },
+    "format-muted": "",
+    "on-click": "pavucontrol",
+    "on-click-right": "pactl set-sink-mute 0 toggle",
+    "scroll-step": 1,
+    "tooltip-format": "{desc}\t{volume}%\t{icon}",
+  },
+
+  "niri/language": {
+    "format": "{}",
+    "format-en": "EN",
+    "format-ru": "RU",
+  },
+
+  "network": {
+    "format": "{icon}",
+    "format-disconnected": "󰖪",
+    "format-ethernet": "󰈀 /{ifname}",
+    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+    "format-linked": "󰖩",
+    "format-wifi": "{icon}",
+    "interval": 30,
+    "on-click": "nmgui",
+    "on-click-right": "rfkill toggle wifi",
+    "tooltip": true,
+    "tooltip-format": "interface:\t{ifname}\n\nconnected to {essid} at {signalStrength}% strength",
+    "tooltip-format-disconnected": "interface: {ifname}\nconnected to {essid}\nat {signalStrength}% strength",
+  },
+
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "",
+      "none": "",
+      "dnd-notification": "",
+      "dnd-none": "",
+      "inhibited-notification": "",
+      "inhibited-none": "",
+      "dnd-inhibited-notification": "",
+      "dnd-inhibited-none": "",
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true,
+  },
+}
