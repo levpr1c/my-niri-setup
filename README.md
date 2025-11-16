@@ -2,9 +2,12 @@
 
 #### I am setting this up to break down how to create dotfiles and use them on my laptop. Niri is my first window manager, and I love using it. I want to switch to labwc, but for now, I'm still using Niri.
 
+[rus version readme](/ruREADME)
+
 *i think i will never switch to labwc, there now some i realy need to use. maybe i will use gnome or etc*
 
 I translated some comments in the Niri config to my language (Russian).
+*but, i also remove many lines of confing((*
 
 I’m using a custom version of Niri. My version includes blur effects, but I’ve disabled them in the config. If you want to use blur, you can download the Niri version with blur from [there](https://www.reddit.com/r/niri/comments/1l8mj0k/for_those_who_cant_wait_anymore_for_blur_here_is/?share_id=fQoS3EHcK6C6ETD85KhyW&utm_content=2&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1).
 # Setup Variants
