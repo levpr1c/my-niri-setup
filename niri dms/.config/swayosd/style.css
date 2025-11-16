@@ -1,0 +1,62 @@
+/* Gruvbox Dark Colors */
+@define-color background rgba(40, 40, 40, 1);
+@define-color background09 rgba(40, 40, 40, 0.9);
+@define-color background05 rgba(40, 40, 40, 0.7);
+@define-color background-light rgba(60, 56, 54, 1);
+@define-color foreground rgba(235, 219, 178, 1);
+@define-color black rgba(50, 48, 47, 1);
+@define-color red rgba(204, 36, 29, 1);
+@define-color green rgba(152, 151, 26, 1);
+@define-color yellow rgba(215, 153, 33, 1);
+@define-color blue rgba(69, 133, 136, 1);
+@define-color magenta rgba(177, 98, 134, 1);
+@define-color cyan rgba(104, 157, 106, 1);
+@define-color white rgba(235, 219, 178, 1);
+@define-color orange rgba(214, 93, 14, 1);
+
+window#osd {
+  border-radius: 8px;
+ /* border: 2px solid @white;
+  background: alpha(@background, 0.85); */
+}
+
+window#osd #container {
+  margin: 10px;
+  padding: 2px;
+  background: transparent;
+}
+
+window#osd image {
+  -gtk-icon-transform: scale(0.8 .);
+}
+
+window#osd image,
+window#osd label {
+  color: @foreground;
+}
+
+window#osd progressbar:disabled,
+window#osd image:disabled {
+  opacity: 0.9;
+}
+
+window#osd progressbar {
+  min-height: 6px;
+  border-radius: 999px;
+  background: transparent;
+  border: none;
+}
+
+window#osd trough {
+  min-height: inherit;
+  border-radius: inherit;
+  border: none;
+  background: alpha(@blue, 0.5);
+}
+
+window#osd progress {
+  min-height: inherit;
+  border-radius: inherit;
+  border: none;
+  background: @foreground;
+}

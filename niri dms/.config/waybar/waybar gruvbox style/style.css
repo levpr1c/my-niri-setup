@@ -1,0 +1,269 @@
+/* Gruvbox Dark Colors */
+@define-color background rgba(40, 40, 40, 1);
+@define-color background09 rgba(40, 40, 40, 0.9);
+@define-color background05 rgba(40, 40, 40, 0.7);
+@define-color background-light rgba(60, 56, 54, 1);
+@define-color foreground rgba(235, 219, 178, 1);
+@define-color black rgba(50, 48, 47, 1);
+@define-color red rgba(204, 36, 29, 1);
+@define-color green rgba(152, 151, 26, 1);
+@define-color yellow rgba(215, 153, 33, 1);
+@define-color blue rgba(69, 133, 136, 1);
+@define-color magenta rgba(177, 98, 134, 1);
+@define-color cyan rgba(104, 157, 106, 1);
+@define-color white rgba(235, 219, 178, 1);
+@define-color orange rgba(214, 93, 14, 1);
+
+* {
+    border: none;
+    border-radius: 0;
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: JetBrains mono;
+    font-weight: bold;
+    min-height: 10px;
+}
+
+window#waybar {
+    background: @background09;
+    /* border-bottom: 3px solid @orange; */
+    color: @white;
+}
+
+tooltip {
+    background: @background05;
+    border: 1px solid @orange;
+}
+tooltip label {
+    color: @white;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces {
+    transition: none;
+    color: @white;
+    background: @black;
+    margin-right: 3px;
+    transition: all 0.3s;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#niri-window button {
+    margin-left: 3px;
+    border-radius: 12px;
+    transition: all 0.3s;
+    background: #383c4a;
+    color: @white;
+}
+
+#workspaces button {
+    transition: all 0.3s;
+    color: @foreground;
+    background: transparent;
+    padding: 2px;
+    transition: all 0s;
+}
+
+#workspaces button.persistent {
+    color: @foreground;
+    font-size: 12px;
+    transition: all 0.3s;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#workspaces button:hover {
+    transition: all 0.3s;
+    box-shadow: inherit;
+    text-shadow: inherit;
+    color: @foreground;
+    background: @background-light;
+}
+
+#workspaces button.active {
+    padding-left: 2px;
+    padding-right: 2px;
+    transition: all 0.3s;
+    color: @white;
+    background: @black;
+    border-bottom: 3px solid @yellow;
+    /*color: #000000;*/
+    transition: all 0s;
+}
+
+#submap {
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 12px;
+    transition: none;
+    color: @white;
+    background: @black;
+    border-bottom: 3px solid @orange;
+}
+
+#clock {
+    margin-right: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 12px;
+    transition: none;
+    color: @white;
+    background: @black;
+    border-bottom: 3px solid @orange;
+}
+
+#custom-power {
+    margin-right: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 12px;
+    transition: none;
+    color: @white;
+    background: @black;
+    border-bottom: 3px solid @orange;
+}
+
+#cpu {
+    margin-right: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 12px;
+    transition: none;
+    color: @white;
+    background: @black;
+    border-bottom: 3px solid @orange;
+}
+
+#memory {
+    margin-right: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 12px;
+    transition: none;
+    color: @white;
+    background: @black;
+    border-bottom: 3px solid @orange;
+}
+
+#custom-menu {
+    margin-right: 3px;
+    padding-left: 9px;
+    padding-right: 13px;
+    border-top: 12px;
+    transition: none;
+    color: @white;
+    background: @black;
+    border-bottom: 3px solid @orange;
+}
+
+#temperature {
+    margin-right: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 12px;
+    transition: none;
+    color: @white;
+    background: @black;
+    border-bottom: 3px solid @orange;
+}
+
+#battery {
+    margin-right: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 12px;
+    transition: none;
+    color: @white;
+    background: @black;
+    border-bottom: 3px solid @orange;
+}
+
+#tray {
+    margin-right: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: none;
+    color: @white;
+    background: @black;
+    border-bottom: 3px solid @orange;
+}
+
+#anln {
+    padding-left: 10px;
+    border-top: 12px;
+    transition: none;
+    color: @white;
+    background: @black;
+    border-bottom: 3px solid @orange;
+}
+
+#pulseaudio {
+    margin-right: 7px;
+}
+
+#network {
+    margin-right: 10px;
+    margin-left: 7px;
+}
+
+#niri-language {
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+#custom-notification {
+    margin-left: 7px;
+    margin-right: 14px;
+}
+
+/*
+#pulseaudio {
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 16px;
+    border-radius: 12px;
+    transition: none;
+    color: #ffffff;
+    background: #383c4a;
+}
+
+#network {
+    margin-right: 5px;
+    padding-left: 9px;
+    padding-right: 13px;
+    border-radius: 12px;
+    transition: none;
+    color: #ffffff;
+    background: #383c4a;
+}
+
+#language {
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 12px;
+    transition: none;
+    color: #ffffff;
+    background: #383c4a;
+}
+
+#custom-notification {
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 12px;
+    border-top: 10px;
+    transition: none;
+    color: #ffffff;
+    background: #383c4a;
+    border-bottom: 3px solid @orange;
+}
+*/
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
