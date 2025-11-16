@@ -2,7 +2,7 @@
 
 #### I am setting this up to break down how to create dotfiles and use them on my laptop. Niri is my first window manager, and I love using it. I want to switch to labwc, but for now, I'm still using Niri.
 
-[rus version readme](/ruREADME)
+[rus version readme](/ruREADME.md)
 
 *i think i will never switch to labwc, there now some i realy need to use. maybe i will use gnome or etc*
 
