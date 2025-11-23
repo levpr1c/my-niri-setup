@@ -16,7 +16,7 @@ I currently have **two different configurations**:
 
 | Waybar setup                | DankMaterialShell setup         |
 | --------------------------- | ------------------------------- |
-| ![50%](/images/preview.png) | ![50%](/images/preview_dms.png) |
+| ![](/images/preview.png) | ![](/images/preview_dms.png) |
 ## 🎨 In waybar rice, i used
 
 - **bar** - waybar 
